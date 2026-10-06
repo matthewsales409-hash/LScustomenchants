@@ -1,0 +1,14 @@
+name: LSCustomEnchants
+version: 1.0.0
+main: dev.lscustom.CustomEnchants
+api-version: '1.21'
+description: Custom enchantments (Lifesteal, Vein Miner, Timber, Homing, ...)
+commands:
+  ce:
+    description: Custom enchant admin command
+    usage: /ce <list|enchant|book|remove|reload>
+    aliases: [customenchants]
+permissions:
+  ce.admin:
+    description: Use /ce
+    default: op
